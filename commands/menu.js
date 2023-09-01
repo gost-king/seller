@@ -1,3 +1,7 @@
+const { tlang, botpic, cmd, prefix, runtime, Config , sleep } = require('../lib')
+const axios = require('axios')
+const speed = require('performance-now')
+const fetch = require('node-fetch');
 //---------------------------------------------------------------------------
 cmd({
             pattern: "menu",
