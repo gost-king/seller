@@ -1,9 +1,3 @@
-/**
-**/
-
-
-
-
  const { tlang,sck,prefix,cmd } = require('../lib')
  cmd({
      pattern: "amute",
