@@ -1,10 +1,5 @@
-/**
-
- **/
-
-//---------------------------------------------------------------------------
 const Secktor = require('../lib')
-Secktor.cmd({
+cmd({
         pattern: "ping",
         react: "⚡",
         desc: "To check ping",
