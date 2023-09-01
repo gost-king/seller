@@ -1,15 +1,15 @@
 {
-               "name": "Shenu-Queen-Md",
+               "name": "Dilshan-Md",
                "version": "4.0",
-               "description": "Multi device whatsapp bot by Thushan.",
+               "description": "Multi device whatsapp bot by Dilshan.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name shenu-md",
-                "stop": "pm2 stop shenu-md"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name dilshan-md",
+                "stop": "pm2 stop dilshan-md"
                 },
-               "author": "MrThushan",
+               "author": "MrDilshan",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -88,10 +88,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/CYBER-THUSHAN/SHENU-QUEEN.git"
+                 "url": "git+https://github.com/.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/CYBER-THUSHAN/SHENU-QUEEN/issues"
+                 "url": "https://github.com/issues"
                   },
-                 "homepage": "https://github.com/CYBER-THUSHAN/SHENU-QUEEN#readme"
+                 "homepage": "https://github.com/#readme"
               }
