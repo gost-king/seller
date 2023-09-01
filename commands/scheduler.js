@@ -40,9 +40,9 @@
  async(Void, citel, text,{ isCreator }) => {
      if (!isCreator) return citel.reply(tlang().owner)
      if(!citel.isGroup) return citel.reply(tlang().group)
-     if(!text.split(':')[1]) return citel.reply(`Please provide correct form.\nEg: ${prefix}tmute ${prefix}${time}`)
-     //if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${prefix}${time}`);
-     //if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${prefix}${time}`)
+     if(!text.split(':')[1]) return citel.reply(`Please provide correct form.\nEg: ${prefix}tmute ${time}`)
+     //if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${time}`);
+     //if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${time}`)
            let Group = await sck.findOne({ id: citel.chat })
              if (!Group) {
                  await new sck({ id: citel.chat, mute: text }).save()
