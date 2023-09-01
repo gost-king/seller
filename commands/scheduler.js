@@ -32,7 +32,7 @@
 
  const { tlang,sck,prefix,cmd } = require('../lib')
  cmd({
-     pattern: "amute",
+     pattern: "tmute",
      desc: "sets auto mute time in group.",
      react: "🔒",
      category: "moderation",
@@ -40,9 +40,9 @@
  async(Void, citel, text,{ isCreator }) => {
      if (!isCreator) return citel.reply(tlang().owner)
      if(!citel.isGroup) return citel.reply(tlang().group)
-     if(!text.split(':')[1]) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
-     //if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`);
-     //if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
+     if(!text.split(':')[1]) return citel.reply(`Please provide correct form.\nEg: ${prefix}tmute ${prefix}${time}`)
+     //if(!Number.isInteger(text.split(':')[0])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${prefix}${time}`);
+     //if(!Number.isInteger(text.split(':')[1])) return citel.reply(`Please provide correct form.\nEg: ${prefix}amute ${prefix}${time}`)
            let Group = await sck.findOne({ id: citel.chat })
              if (!Group) {
                  await new sck({ id: citel.chat, mute: text }).save()
@@ -56,7 +56,7 @@
 
  //--------------------------------------------------------------------------------
  cmd({
-    pattern: "aunmute",
+    pattern: "tunmute",
     desc: "sets unmute time in group.",
     react: "🔓",
     category: "moderation",
@@ -80,7 +80,7 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  cmd({
-    pattern: "dunmute",
+    pattern: "unmute",
     desc: "Delete unmute from group.",
     react: "🔐",
     category: "moderation",
@@ -100,7 +100,7 @@ async(Void, citel, text,{ isCreator }) => {
 )
  //--------------------------------------------------------------------------------
  cmd({
-    pattern: "dmute",
+    pattern: "mute",
     desc: "Delete mute from group.",
     react: "🔏",
     category: "moderation",
