@@ -59,7 +59,7 @@ cmd(
         {
           audio: {
             url:
-              "https://raw.githubusercontent.com/comming/main/src/alive.aac"
+              "https://github.com/gost-king/seller/raw/main/auth_info_baileys/audio/alive.mp3"
           },
           mimetype: "audio/mp4",
           ptt: true
