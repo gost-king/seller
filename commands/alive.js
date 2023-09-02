@@ -7,31 +7,26 @@ cmd(
     {
       pattern: "alive",
       category: "general",
-      react: "🎋",
+      react: "🧶",
       filename: __filename,
       desc: "is bot alive??"
     },
     async (Void, citel, text, isAdmins) => {
-      let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by .*`;
+      let alivemessage = Config.ALIVE_MESSAGE || `.`;
       const mylink = `https://chat.whatsapp.com/`
       const alivtxt = `
-  🎋⃟🤴 *ʜᴇʏ, ${citel.pushName},*
+  ━━━━━━━━━━━
+  🕴⃟👨‍🎤 *ʜᴇʏ, ${citel.pushName},*
   
-  🎋⃟👨‍🚒 *ᴠᴇʀꜱɪᴏɴ:-* 0.0.9
+  🕴⃟👨‍🎤 *ᴜᴘᴛɪᴍᴇ:-* _${runtime(process.uptime())}_
   
-  🎋⃟🧛 *ᴜᴘᴛɪᴍᴇ:-* _${runtime(process.uptime())}_
-  
-  🎋⃟🧙‍♂️ *ᴏᴡɴᴇʀ:-* _${Config.ownername}_
+  🕴⃟👨‍🎤 *ᴏᴡɴᴇʀ:-* _${Config.ownername}_
   
   ━━━━━━━━━━━
   
-  🎋► ᴏɴʟɪɴᴇ ɴᴏᴡ...
+  👨‍🎤► ᴏɴʟɪɴᴇ ɴᴏᴡ...
   
-  🎋► ɪ'ᴀᴍ ᴅᴀʀᴋ ɴᴇʀᴏ ᴠ9 ᴡᴀ ʙᴏᴛ...
-  
-  🎋► ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ...
-  
-  🎋► ᴛʏᴘᴇ .ʟɪꜱᴛ ᴛᴏ ɢᴇᴛ ᴍʏ ꜰᴜʟʟ ᴄᴏᴍᴍᴀᴅ ʟɪꜱᴛ... 
+  👨‍🎤► ʜᴏᴡ ᴄᴀɴ ɪ ʜᴇʟᴘ ʏᴏᴜ...
   
   ━━━━━━━━━━━━
   
