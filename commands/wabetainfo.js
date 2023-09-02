@@ -31,7 +31,7 @@
 
 const { tlang, botpic, cmd, prefix, runtime, Config, formatp, fetchJson } = require('../lib')
 const Esana = require('@sl-code-lords/wabetainfo');
-var api = new WABetaInfo()
+var api = new wabetainfo()
 
 cmd({
     pattern: 'wabeta',
