@@ -25,8 +25,8 @@
 
    5. Clone Repo and install required packages
       ```
-      git clone https://github.com/SamPandey001/Secktor-Md
-      cd Secktor-Md
+      git clone https://github.com/DilshanMDLK/DILSHANLK
+      cd Dilshan-Md
       yarn install --network-concurrency 1
       ```
 
@@ -38,14 +38,14 @@
       copy paste lines below.
 
       ```
-      OWNER_NUMBER="911234567890"
+      OWNER_NUMBER="947xxxxxxx"
       MONGODB_URI="mongodb+srv://*************"
-      SESSION_ID = "secktorbot.herokuapp.com/session"
-      THUMB_IMAGE = "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png"
+      SESSION_ID = "dilshan.herokuapp.com/session"
+      THUMB_IMAGE = "https://i.ibb.co/NTFjrws/Whats-App-Image-2023-09-02-at-16-25-19.jpg"
       port = 5000
-      email = "sam@secktor.live"
+      email = "mr@dilshan.live"
       global_url = "instagram.com"
-      OWNER_NAME = "SamPandey001"
+      OWNER_NAME = "Mr Dilshan"
       AUTO_REACTION = false
       FAKE_COUNTRY_CODE = 92
       READ_MESSAGE = false
@@ -55,9 +55,9 @@
       ANTI_BAD_WORD = "fuck"
       LEVEL_UP_MESSAGE= true
       WELCOME_MESSAGE =  "*Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th"
-      THEME= SECKTOR
+      THEME= DiLSHAN-MD
       WORKTYPE = public
-      PACK_INFO = "Sam;Pandey"
+      PACK_INFO = "Mr;Dilshan"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
       ```
