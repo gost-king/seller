@@ -5,10 +5,9 @@ const fetch = require('node-fetch');
     //---------------------------------------------------------------------------
 cmd({
         pattern: "owner",
-	alias: ["owne "],
+	react: "👨‍🎤",
         desc: "To find owner number",
         category: "general",
-        react: "🥷",
         filename: __filename
     },
     async(Void, citel) => {
@@ -24,7 +23,7 @@ cmd({
             contextInfo: {
                 externalAdReply: {
                     title: Config.ownername,
-                    body: '🥷ᴅᴀʀᴋ ɴᴇʀᴏ ᴠ9🥷.',
+                    body: '  .',
                     renderLargerThumbnail: false,
                     thumbnailUrl: ``,
                     thumbnail: log0,
