@@ -1,3 +1,5 @@
+const { tlang, botpic, cmd, prefix, runtime, Config, formatp, fetchJson } = require('../lib');
+const apikey = ' vihangayt api key ' ;
 cmd({
     pattern: "wabeta",
     alias: ["wabetaino",".wabe"],
