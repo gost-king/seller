@@ -12,8 +12,8 @@ cmd(
       desc: "is bot alive??"
     },
     async (Void, citel, text, isAdmins) => {
-      let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by KALINDU.*`;
-      const mylink = `https://chat.whatsapp.com/K7i6DvdR8u34WCFuASM26a`
+      let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by .*`;
+      const mylink = `https://chat.whatsapp.com/`
       const alivtxt = `
   🎋⃟🤴 *ʜᴇʏ, ${citel.pushName},*
   
