@@ -15,15 +15,15 @@ try{
 const wanews = await fetchJson(`https://vihangayt.me/details/wabetainfo?apikey=VihangaYT`);
 
 
-         
+            const txt2 = await Void.sendMessage(citel.chat, {image: {url: res.COVER}, caption: `\n*_|:̵🤹‍♂️⃟⃪♥️̟⎝⃝࿐ᴇꜱᴀɴᴀ ɴᴇᴡꜱ_* \n\n📃⃕⃕⃟⃫🥷 ᴛɪᴛᴇʟ :  ${res.TITLE}\n\n📃⃫⃕⃟🥷 ᴅᴀᴛᴇ & ᴛɪᴍᴇ :  ${res.PUBLISHED}\n\n📃⃫⃕⃟🥷 ᴜʀʟ : ${res.URL}\n\n📃⃫⃕⃟🥷 ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ : ${res.DESCRIPTION}\n\n*┗━━━━━━━━━━━━━━◆*\n\n ©ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ ᴄʏʙᴇʀ ʏᴀᴋᴜᴢᴀ ᴛᴇᴀᴍ`}, { quoted: citel });
 
-          const images = `${wanews.result.image}`
-           const title = `${wanews.result.title}`
-           const news = `${wanews.result.fulldesc}`
-           const date = `${wanews.result.date}`
+                await Void.sendMessage(citel.chat, { react: {
+        text: "📰",
+        key: txt2.key,
+            } } );
 
-await conn.sendMessage(from,  { image: { url: images }, caption: `\n\n*${ title }*\n\n\n ${ news }\n\n\n ${date}`}, { quoted: mek })
-}
-catch(e){
-console.log(e)
-}})
+    } catch (e) {
+    console.log(e)
+    citel.reply("❗ *" + e + "*")
+  }
+})
