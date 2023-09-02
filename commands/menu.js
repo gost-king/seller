@@ -42,7 +42,7 @@ cmd({
                 quoted: citel,
             });
             
-            await Void.sendMessage(citel.chat, { audio: {url: "https://raw.githubusercontent.com/gost-king/sellergost-king/seller/main/auth_info_baileys/audio/menu.mp3" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
+            await Void.sendMessage(citel.chat, { audio: {url: "https://github.com/gost-king/seller/raw/main/auth_info_baileys/audio/menu.mp3" }, mimetype: 'audio/mp4', ptt: true, }, { quoted: citel })
         }
     )
 
