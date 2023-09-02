@@ -23,7 +23,7 @@ cmd({
             contextInfo: {
                 externalAdReply: {
                     title: Config.ownername,
-                    body: '  .',
+                    body: 'ᴅɪʟꜱʜᴀɴ ᴍᴅ',
                     renderLargerThumbnail: false,
                     thumbnailUrl: ``,
                     thumbnail: log0,
